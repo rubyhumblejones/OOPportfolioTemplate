@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double miles, kilometres; 
+		Scanner scan1 = new Scanner(System.in) ;
+		
+		//asks user to enter value in miles
+		System.out.println("Please enter how many miles you have run");
+		miles = scan1.nextDouble();
+		
+		//converts to kilometres 
+		kilometres = 1.60935 * miles; 
+		
+		//outputs conversion
+		System.out.println("That is "
+		+  kilometres
+		+"km"); 
+		
+	}
+
+}
