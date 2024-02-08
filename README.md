@@ -2,7 +2,7 @@
 # OOP 2024 Portfolio
 ## Ruby Humble Jones
 ### Your Group
-### Nohammed Shan-A-Khuda
+### Mohammed Shan-A-Khuda
 
 
 
