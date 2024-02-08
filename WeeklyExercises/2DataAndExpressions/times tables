@@ -1,0 +1,19 @@
+
+public class MultiplicaionsTable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	final int MAX = 12; 
+	
+	for (int row = 1; row<= MAX; row ++)
+	{
+		for (int column = 1; column <= MAX; column ++)
+		{
+			System.out.print(row + " x " + column + " = " + (row * column) + "\t");
+		}
+		System.out.println();
+	}
+
+	}
+
+}
