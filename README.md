@@ -18,10 +18,10 @@
 **2 Data and Expressions**\
 **committed by 19th February**\
 1 Table of Student Grades  -- to do\
-2 Computing Averages       -- 
-3 Miles to Kilometers      -- to do\
-4 Square Calculation       -- to do\
-5 Fraction -- to do        -- to do
+2 Computing Averages       -- \
+3 Miles to Kilometers      -- \
+4 Square Calculation       -- \
+5 Fraction -- to do        -- \
 
 **3 Selection and Iteration**\
 **committed by 26th February**\
