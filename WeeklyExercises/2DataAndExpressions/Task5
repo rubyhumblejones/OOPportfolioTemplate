@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class task5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numerator, denominator; 
+		Scanner scan3 = new Scanner(System.in) ;
+		
+		//asks user to enter numerator and denominator
+		System.out.println("Please enter the numerator of the fraction");
+		numerator = scan3.nextInt();
+		System.out.println("Please enter the denominator of the fraction");
+		denominator = scan3.nextInt();
+		
+		//calculates decimal equivilant
+		double decimal_equiv; 
+		decimal_equiv = numerator/denominator; 
+		
+		//outputs answer
+		System.out.println("The fraction " + numerator + "/" + denominator + " can also be written as " + decimal_equiv);
+		
+		
+
+	}
+
+}
