@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class task4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double Side_Length; 
+		Scanner scan2 = new Scanner(System.in) ;
+		
+		//asks user to enter length of side
+		System.out.println("Please enter how long the side of the squre is in cm ");
+		Side_Length = scan2.nextDouble();
+		
+		//calculates area
+		double area = Side_Length * Side_Length;
+		
+		//calculates perimeter 
+		double perimeter = Side_Length * 4;
+		
+		//outputs values
+		System.out.println("The area of the square is " 
+				+ area + "cm2");
+		System.out.println("The perimter of the square is " 
+				+ perimeter + "cm");
+	}
+
+}
