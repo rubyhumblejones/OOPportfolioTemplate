@@ -21,7 +21,7 @@
 2 Computing Averages       -- \
 3 Miles to Kilometers      -- \
 4 Square Calculation       -- \
-5 Fraction -- to do        -- \
+5 Fraction        -- \
 
 **3 Selection and Iteration**\
 **committed by 26th February**\
