@@ -1,18 +1,25 @@
 package week3;
-
-// not finished 
-
+import java.io.*;
 import java.util.Scanner;
 public class Task3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 Scanner scan = new Scanner(System.in);
-		 System.out.println("Enter a word");
-		 String myString = scan.next();
-
-		 
-		 let myReversedString = myString.split("").reverse().join("");
+		Scanner scan = new Scanner (System.in); 
+		System.out.println("Enter a word");
+		String word = scan.next();
+		 String str= word  , nstr="";
+	        char ch;
+	       
+	      System.out.println("Original word: ");
+	      System.out.println(word); 
+	       
+	      for (int i=0; i<str.length(); i++)
+	      {
+	        ch= str.charAt(i); //extracts each character
+	        nstr= ch+nstr; //adds each character in front of the existing string
+	      }
+	      System.out.println("Reversed word: "+ nstr);
 	}
 
 }
