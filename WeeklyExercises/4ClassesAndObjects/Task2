@@ -1,0 +1,54 @@
+package Test;
+import java.util.Scanner;
+import java.util.Random;
+
+public class Dice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int die_sides1; 
+		int die_sides2; 
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("How many sides does die 1 have? "); 
+		die_sides1 = scan.nextInt();
+		
+		System.out.println("How many sides does die 2 have? "); 
+		die_sides2 = scan.nextInt();
+		Random rand = new Random();
+		int num11 = rand.nextInt(die_sides1);
+		System.out.println("Die 1 roll " + num11);
+		Random rand2 = new Random();
+		int num21 = rand.nextInt(die_sides2);
+		System.out.println("Die 2 roll " + num21);
+		Random rand3 = new Random();
+		int num12 = rand.nextInt(die_sides1);
+		System.out.println("Die 1 roll " + num12);
+		Random rand4 = new Random();
+		int num22 = rand.nextInt(die_sides2);
+		System.out.println("Die 2 roll " + num22);
+		Random rand5 = new Random();
+		int num13 = rand.nextInt(die_sides1);
+		System.out.println("Die 1 roll " + num13);
+		Random rand6 = new Random();
+		int num23 = rand.nextInt(die_sides2);
+		System.out.println("Die 2 roll " + num23);
+		
+		int total1 = num11 + num12 + num13; 
+		System.out.println("Total for die 1 is " + total1); 
+		int total2 = num21 + num22 + num23; 
+		System.out.println("Total for die 1 is " + total2);
+		
+		double average1 = total1 / 3; 
+		System.out.println("Average for die 1 is " + average1);
+		double average2 = total2 / 3; 
+		System.out.println("Average for die 2 is " + average2);
+		
+		}
+
+		
+		
+		
+		
+		
+	}
