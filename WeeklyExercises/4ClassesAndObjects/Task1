@@ -1,0 +1,41 @@
+package Test;
+
+
+//**************************************************
+//StringPlay.java
+//
+//Play with String objects
+//**************************************************
+public class StringPlay
+{
+	public static void main (String[] args)
+	{
+		String college = new String ("Leeds Beckett University"); //Similar for part (a)
+		String town = new String ("Anytown, UK");  // part (a)
+ 
+
+	 	int stringLength;
+	 	String change1, change2, change3; 
+	
+	 	String str = college; 
+	 	
+	 	
+	 	stringLength = str.length(); //extracts each character; // part (b)
+	      
+	      
+	
+	 	System.out.println (college + " contains " + stringLength + " characters.");
+	
+	
+	 	change1 = str.toUpperCase(); // part (c) 
+	 	System.out.println ("The first change is" + change1);
+	
+	
+	 	change2 = str.replaceAll("e", "*"); // part (d)
+	 	System.out.println ("The second change is" + change2);
+	
+	 	change3 = str.concat(town); // part (e)
+	 	
+	 	System.out.println ("The final string is " + change3);
+	}
+}
