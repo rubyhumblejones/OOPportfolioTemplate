@@ -1,0 +1,18 @@
+
+public class Lights {
+	public static void main(String[] args)
+	{
+		Bulb b1 = new Bulb();
+		Bulb b2 = new Bulb();
+		Bulb b3 = new Bulb();
+		
+		System.out.println("Is b2 on?" + b2.ison()); 
+		
+		b2.seton(true);
+		b1.seton(false); 
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println(b3);
+	}
+}
