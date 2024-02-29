@@ -1,0 +1,22 @@
+public class Bulb {
+	private boolean on;
+	private boolean Bulb; 
+	
+	public boolean ison()
+	{
+		return on; 
+	}
+	public Bulb()
+	{
+		on = false;
+	}
+	public void seton(boolean status)
+	{
+		on = status; 
+	}
+	public String toString()
+	{
+		return "Bulb on:" + on; 
+	}
+	
+}
