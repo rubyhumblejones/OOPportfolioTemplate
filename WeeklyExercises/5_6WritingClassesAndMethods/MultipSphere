@@ -1,0 +1,16 @@
+public class MultiSphere {
+	public static void main(String[] args)
+	{
+
+	Sphere s1 = new Sphere(3.78); 
+	Sphere s2 = new Sphere(9.88); 
+	Sphere s3 = new Sphere(12.9); 
+	
+	
+	System.out.println("Sphere 1s diameter is" + s1.getdiameter()); 
+	System.out.println(s1);
+	System.out.println(s2);
+	System.out.println(s3);
+	
+	}
+}
