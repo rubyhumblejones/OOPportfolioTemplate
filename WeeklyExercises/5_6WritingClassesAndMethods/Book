@@ -1,0 +1,51 @@
+public class Book {
+	private String Title; 
+	private String Author; 
+	private String Publisher; 
+	private String Copyright; 
+	
+
+	public Book(String TitleInit, String AuthorInit, String PublisherInit, String CopyrightInit)
+	{
+		
+	}
+	public String GetTitle()
+	{
+		return Title;
+	}
+	public String GetAuthor()
+	{
+		return Author; 
+	}
+	public String GetPublisher()
+	{
+		return Publisher; 
+	}
+	public String GetCopyright()
+	{
+		return Copyright; 
+	}
+	
+	
+	public void SetTitle(String NewTitle)
+	{
+		Title = NewTitle; 
+	}
+	public void SetAuthor(String NewAuthor)
+	{
+		Author = NewAuthor;
+	}
+	public void SetPublisher(String NewPublisher)
+	{
+		Publisher = NewPublisher;
+	}
+	public void SetCopyright(String NewCopyright)
+	{
+		Copyright = NewCopyright; 
+	}
+	
+	public String ToString()
+	{
+		return "This book is called" + Title + "And was written by" + Author + "It was published by" + Publisher + "in" + 
+	}
+}
