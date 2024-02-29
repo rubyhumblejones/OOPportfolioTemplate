@@ -1,0 +1,14 @@
+public class Bookshelf {
+	public static void main(String[] args)
+	{
+		Book b1 = new Book("To Kill a Mockingbird", "Harper Lee", "HarperCollins","1960" );
+		Book b2 = new Book("", "", "", ""); 
+		Book b3 = new Book("", "" , "", ""); 
+		
+		System.out.print(b1);
+		System.out.print(b2);
+		System.out.print(b3);
+	}
+	
+
+}
