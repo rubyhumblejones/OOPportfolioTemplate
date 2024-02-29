@@ -1,0 +1,40 @@
+import java.text.DecimalFormat;
+
+public class Sphere {
+
+		private double diameter; 
+		
+		public Sphere(double diameterinit) {
+		diameter = diameterinit; 
+		
+		}
+		public double getdiameter()
+		{
+			return diameter; 
+		}
+		
+		public void setdiameter(double newdiameter)
+		{
+			diameter = newdiameter; 
+		}
+
+		public double volume()
+		{
+			return 4.0/3.0 * Math.PI * Math.pow(diameter/2, 3);
+		}
+		
+		public double surfacearea()
+		{
+			return 4.0 * Math.PI * Math.pow(diameter/2, 2); 
+		}
+		
+		public String tostring()
+		
+		{
+			DecimalFormat  fmt = new DecimalFormat("0.###"); 
+			
+			return "Sphere diameter: " + diameter + "Volume: " + fmt.format(volume()) + "Area: " + fmt.format(surfacearea()); 
+			
+		}
+		
+	}
