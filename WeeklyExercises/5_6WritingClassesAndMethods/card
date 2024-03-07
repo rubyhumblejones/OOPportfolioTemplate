@@ -1,0 +1,44 @@
+import java.text.DecimalFormat;
+
+public class card {
+	
+	private String suit;
+	private int value; 
+	
+	public card(String suitinit,int valueinit)
+	{
+		suit = suitinit;
+		value = valueinit; 
+	}
+	
+	public String getsuit()
+	{
+		return suit;
+	}
+	
+	public void setsuit(String newsuit)
+	{
+		suit = newsuit; 
+	}
+	
+	public int getvalue()
+	{
+		return value;
+	}
+	
+	public void setvalue(int newvalue)
+	{
+		value = newvalue;
+	}
+	
+	public String tostring()
+	
+	{
+		DecimalFormat  fmt = new DecimalFormat("0.###"); 
+		
+		return "Cards:  " +  fmt.format(getvalue()) + "of " + fmt.format(getsuit()); 
+		
+	}
+	
+	
+}
