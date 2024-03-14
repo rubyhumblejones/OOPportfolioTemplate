@@ -1,0 +1,23 @@
+
+public class Rectangle extends Shape{
+	int length, height; 
+	public Rectangle ()
+	{
+		super(); 
+		length = 0; 
+		height =0; 
+		
+	}
+	public Rectangle (int xpos, int ypos, int height , int length)
+	{
+		this.length = length; 
+		this.height = height; 
+		this.xpos = xpos; 
+		this.ypos = ypos; 
+	}
+	public int calcArea()
+	{
+		return length * height; 
+	}
+
+}
