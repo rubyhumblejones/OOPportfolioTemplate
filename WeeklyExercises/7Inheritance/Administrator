@@ -1,0 +1,24 @@
+
+public class Administrator extends HospitalEmployee {
+	protected String department;
+	public Administrator(String empname, int empid_num, String dept) {
+		super(empname, empid_num);
+		department = dept; 
+	}
+	public void setdepartment(String dept)
+	{
+		department = dept; 
+	}
+	public String getdepartment()
+	{
+		return department; 
+	}
+	public String tostring()
+	{
+		return super.tostring() + department; 
+	}
+	public void work()
+	{
+		System.out.println(name + " works for the hospital and department is " + department); 
+	}
+}
