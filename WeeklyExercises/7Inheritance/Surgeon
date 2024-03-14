@@ -1,0 +1,30 @@
+
+public class Surgeon extends Doctor{
+	protected boolean operating; 
+	public Surgeon(String empname, int empid_num, String special, boolean op) {
+		super(empname, empid_num, special);
+		operating = op; 
+	}
+	public void setop(boolean op)
+	{
+		operating = op; 
+	}
+	public boolean getop()
+	{
+		return operating;
+	}
+	public String tostring()
+	{
+		return super.tostring() + "Currently operating: " + operating; 
+	}
+	public void operating()
+	{
+		System.out.print(name + "is");
+		if (!operating)
+		{
+			System.out.println("not");
+		}
+		System.out.print( "currently operating");
+	}
+
+}
