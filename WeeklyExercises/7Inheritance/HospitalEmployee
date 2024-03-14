@@ -1,0 +1,28 @@
+
+public class HospitalEmployee{
+	protected String name; 
+	protected int id_num; 
+	
+
+	public HospitalEmployee(String empname, int empid_num)
+	{
+		name = empname; 
+		id_num = empid_num; 
+	}
+	public void setname(String empname)
+	{
+		name = empname; 
+	}
+	public String getname()
+	{
+		return name; 
+	}
+	public String tostring()
+	{
+		return name + id_num; 
+	}
+	public void work()
+	{
+		System.out.println(name + " works for the hospital."); 
+	}
+}
