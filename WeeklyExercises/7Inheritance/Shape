@@ -1,0 +1,17 @@
+
+public abstract class Shape {
+	protected int xpos, ypos; 
+	
+	public Shape()
+	{
+		xpos =0; 
+		ypos =0;
+	}
+	public Shape(int xpos, int ypos)
+	{
+		this.xpos = xpos;
+		this.ypos = ypos; 
+	}
+	public abstract int calcArea();
+	
+}
