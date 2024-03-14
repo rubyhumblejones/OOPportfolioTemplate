@@ -1,0 +1,12 @@
+
+public class Hospital {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HospitalEmployee Hasan = new HospitalEmployee("Hasan", 123);
+		Doctor Michael = new Doctor("Michael", 234,  "Heart");
+		
+
+	}
+
+}
