@@ -1,0 +1,24 @@
+
+public class Doctor extends HospitalEmployee{
+	protected String speciality; 
+	public Doctor(String empname, int empid_num, String special ) {
+		super(empname, empid_num);
+		speciality = special; 
+	}
+	public void setspeciality(String special)
+	{
+		speciality = special; 
+	}
+	public String getspeciality()
+	{
+		return speciality; 
+	}
+	public String tostring()
+	{
+		return super.tostring() + speciality;  
+	}
+	public void work()
+	{
+		System.out.println(name + " works for the hospital and speciality is " + speciality); 
+	}
+}
