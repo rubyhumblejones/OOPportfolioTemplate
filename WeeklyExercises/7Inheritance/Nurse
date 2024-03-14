@@ -1,0 +1,25 @@
+
+public class Nurse extends HospitalEmployee{
+	protected int numpatients; 
+	public Nurse(String empname, int empid_num, int numpat) {
+		super(empname, empid_num);
+		numpatients = numpat; 
+	}
+	public void setnumpatients(int numpat)
+	{
+		numpatients = numpat; 
+	}
+	public int getnumberpatients()
+	{
+		return numpatients; 
+	}
+	public String tostring()
+	{
+		return super.tostring() + " has" + numpatients + " patients. ";
+	}
+	public void assist()
+	{
+		System.out.println(name + "is a nurse with" + numpatients + "patients"); 
+	}
+
+}
