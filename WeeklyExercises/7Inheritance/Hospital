@@ -5,6 +5,7 @@ public class Hospital {
 		// TODO Auto-generated method stub
 		HospitalEmployee Hasan = new HospitalEmployee("Hasan", 123);
 		Doctor Michael = new Doctor("Michael", 234,  "Heart");
+		Administrator Kerry = new Administrator("Kerry", 456, "Receptionist");
 		
 
 	}
