@@ -1,0 +1,29 @@
+
+public class Cleaner extends Administrator{
+	protected Boolean sweeping; 
+	public Cleaner(String empname, int empid_num, String dept, Boolean swp) {
+		super(empname, empid_num, dept);
+		sweeping = swp; 
+	}
+	public void setissweeping(boolean isswp)
+	{
+		sweeping = isswp; 
+	}
+	public boolean getisswp()
+	{
+		return sweeping; 
+	}
+	public String tostring()
+	{
+		return super.tostring() + " Sweeping: " + sweeping;
+	}
+	public void sweep()
+	{
+		System.out.print(name + "is");
+		if (!sweeping)
+		{
+			System.out.println("not");
+		}
+		System.out.print( "sweeping the floor. ");
+	}
+}
