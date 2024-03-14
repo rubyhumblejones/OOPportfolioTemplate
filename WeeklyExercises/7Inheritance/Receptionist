@@ -1,0 +1,29 @@
+
+public class Receptionist extends HospitalEmployee {
+	protected boolean answering; 
+	public Receptionist(String empname, int empid_num, boolean ans) {
+		super(empname, empid_num);
+		answering = ans; 
+	}
+	public void setans(boolean ans)
+	{
+		answering = ans; 
+	}
+	public boolean getans()
+	{
+		return answering; 
+	}
+	public String tostring()
+	{
+		return super.tostring() + "answering: " + answering; 
+	}
+	public void anwer()
+	{
+		System.out.print(name + "is");
+		if (!answering)
+		{
+			System.out.println("not");
+		}
+		System.out.print( "answering the phone. ");
+	}
+}
