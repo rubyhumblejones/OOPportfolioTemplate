@@ -5,8 +5,10 @@ public class Hospital {
 		// TODO Auto-generated method stub
 		HospitalEmployee Hasan = new HospitalEmployee("Hasan", 123);
 		Doctor Michael = new Doctor("Michael", 234,  "Heart");
-		Administrator Kerry = new Administrator("Kerry", 456, "Receptionist");
-		
+		Administrator Kerry = new Administrator("Kerry", 456, "childcare");
+		Nurse Amanda = new Nurse("Amanda", 567, 10 );
+		Surgeon David = new Surgeon("David", 678, "Brain", true);
+		Cleaner Sally = new Cleaner("Sally", 789, "3rd floor",  false); 
 
 	}
 
