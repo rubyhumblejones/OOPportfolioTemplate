@@ -1,0 +1,31 @@
+
+public class Student {
+	private String Name;
+	private int Student_id;
+	
+	public String GetName()
+	{
+		return Name;
+	}
+	public void SetName(String NewName) 
+	{
+		Name = NewName;
+	}
+	public int GetStudent_id()
+	{
+		return Student_id;
+	}
+	public void SetStudent_id(int NewStudent_id)
+	{
+		Student_id = NewStudent_id;
+	}
+	public void profile( String NameInit , int Student_idInit)
+	{
+		NameInit = Name;
+		Student_idInit = Student_id; 
+	}
+	public String ToString()
+	{
+		return "Student profile: " + profile(); 
+	}
+}
