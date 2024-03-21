@@ -1,0 +1,8 @@
+
+public class Rabbit extends Mammals {
+	public void move()
+	{
+		System.out.println("The rabbit moves to bite and claw you");
+	}
+
+}
