@@ -1,0 +1,15 @@
+
+public class Mammals extends Object {
+	protected String type;
+	private int legs; 
+	private int weight; 
+	
+	private void move()
+	{
+		System.out.println("Cant move a mammal, need to be more specific"); 
+	}
+	for (Object mam:mammal)
+	{
+		((Mammals)mam).move(); 
+	}
+}
