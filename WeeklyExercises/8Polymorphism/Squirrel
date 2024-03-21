@@ -1,0 +1,8 @@
+
+public class Squirrel extends Mammals{
+	public void move()
+	{
+		System.out.println("The squirrel knicks your nuts");
+	}
+
+}
