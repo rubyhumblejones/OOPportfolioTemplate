@@ -1,0 +1,30 @@
+import java.util.Random; 
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Object mammal = new Object[10];
+		
+		Random rand = new Random(); 
+		for (int i = 0; i<mammal.length; i++)
+		{
+			int r = rand.nextInt(4);
+			switch(r)
+			{
+			case 0:
+			{
+				mammal[i]= new Dog();
+				break;
+			}
+			case 1:
+			{
+				mammal[i]= new Rabbit();
+				break; 
+			}
+			}
+		}
+
+	}
+
+}
