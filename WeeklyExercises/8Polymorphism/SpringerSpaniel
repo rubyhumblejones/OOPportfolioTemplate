@@ -1,0 +1,9 @@
+
+public class SpringerSpaniel extends Dog{
+	public void move()
+	{
+		super.move();
+		System.out.println("But it wont hurt because its a springer spaniel");
+	}
+
+}
