@@ -1,0 +1,8 @@
+
+public class Dog extends Mammals{
+	public void move()
+	{
+		System.out.print("The dog moves to bite you");
+	}
+
+}
