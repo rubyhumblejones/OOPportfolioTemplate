@@ -128,9 +128,22 @@ public class GraphicsSystem extends LBUGraphics
 				{
 					setcolor(Color.BLACK); 
 				}
+				public void setyPos(int yPos)
+				{
+					yPos = int newyPos; 
+				}
+				public void setxPos(int xPos)
+				{
+					xPos = int newxPos; 
+				}
+				
 				public void drawLine(Color color,int x1,int y1,int x2,int y2)
 				{
 					setcolor(Color.color);
+					
+				}
+				public void circle(int radius)
+				{
 					
 				}
 				public void processCommand(String command)      //this method must be provided because OOPGraphics will call it when it's JTextField is used
@@ -178,9 +191,18 @@ public class GraphicsSystem extends LBUGraphics
 				System.out.println("Pressed" + command);
 		        }
 				
+				String inputString1 = "Forward 30"; 
+				String[] splitString1 = inputString1.split(" "); 
+				
+				System.out.println(splitString1[0]); 
+				System.out.println(splitString1[1]); 
+				
+				
+				
 
 		}
 
 }
+
 
 
