@@ -91,6 +91,96 @@ public class GraphicsSystem extends LBUGraphics
 						displayMessage("Invalid parameter"); 
 					}
 				}
+				
+					
+					
 			}
-		
+				public void clear(String command)
+				{
+					JFrame MainFrame = new JFrame(); 
+				}
+
+				public void penup(String command)
+				{
+					
+				}
+				public void pendown(String command)
+				{
+					
+				}
+				public void turnleft(String command)
+				{
+					
+				}
+				public void white(String command)
+				{
+					setcolor(Color.WHITE); 
+				}
+				public void red(String command)
+				{
+					setcolor(Color.RED); 
+				}
+				public void green(String command)
+				{
+					setcolor(Color.GREEN); 
+				}
+				public void black(String command)
+				{
+					setcolor(Color.BLACK); 
+				}
+				public void drawLine(Color color,int x1,int y1,int x2,int y2)
+				{
+					setcolor(Color.color);
+					
+				}
+				public void processCommand(String command)      //this method must be provided because OOPGraphics will call it when it's JTextField is used
+		        {
+		        //String parameter is the text typed into the OOPGraphics JTextfield
+		        //lands here if return was pressed or "ok" JButton clicked
+		        
+		        //TO DO
+					if (command.equals("about"))
+					{
+						about();
+					}
+					if (command.equals("clear"))
+					{
+						clear();
+					}
+					if (command.equals("penup"))
+					{
+						penup();
+					}
+					if (command.equals("pendown"))
+					{
+						pendown();
+					}
+					if (command.equals("turnleft"))
+					{
+						turnleft();
+					}
+					if (command.equals("white"))
+					{
+						white();
+					}
+					if (command.equals("red"))
+					{
+						red();
+					}
+					if (command.equals("green"))
+					{
+						green();
+					}
+					if (command.equals("black"))
+					{
+						black();
+					}
+				System.out.println("Pressed" + command);
+		        }
+				
+
+		}
+
 }
+
+
