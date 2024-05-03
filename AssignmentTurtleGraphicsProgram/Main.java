@@ -25,17 +25,6 @@ public class Main extends OOPGraphics
         }
         
         
-        public void processCommand(String command)
-		{
-        	command.toLowerCase();
-        	String[] elements = command.split("//s");
-        	
-        	switch (elements[0]) {
-        	case "forward":
-        		int parameter = Integer.parseInt(elements[1]);
-        		this.forward(parameter);
-        		System.out.println("success");
-        	}
 		}
 				
 }
