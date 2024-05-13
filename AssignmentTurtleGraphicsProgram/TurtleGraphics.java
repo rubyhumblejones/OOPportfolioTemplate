@@ -66,7 +66,7 @@ public class TurtleGraphics extends OOPGraphics
                                 if (elements.length > 1){
                                         try {
                                         int parameter3 = Integer.parseInt(elements[1]);
-                                        turnRight(parameter3);
+                                        turnRight(parameter3); 
                                         }
                                         catch(NumberFormatException e)
                                         {
@@ -111,6 +111,51 @@ public class TurtleGraphics extends OOPGraphics
                                 case "reset":
                                         reset();
                                         break;
+                                case "about":
+                                	about(); 
+                                 	clear();
+                                	reset();
+                                	penDown();
+                                	forward(-100); 
+                                	turnLeft(90);
+                                	penUp();
+                                	forward(30);
+                                	penDown();
+                                	circle(30);
+                                	penUp();
+                                	turnLeft(180);
+                                	forward(30);
+                                	turnLeft(180);
+                                	turnRight(90);
+                                	forward(10);
+                                	turnLeft(90);
+                                	penDown();
+                                	turnRight(35);
+                                	forward(90); 
+                                	break; 
+                                case "square":
+                                    if (elements.length > 1){
+                                        try{
+                                int parameter2 = Integer.parseInt(elements[1]);
+                                this.forward(parameter2);
+                                turnLeft(90);
+                                this.forward(parameter2);
+                                turnLeft(90);
+                                this.forward(parameter2);
+                                turnLeft(90);
+                                this.forward(parameter2);
+                                turnLeft(90);
+                                        }
+                                        catch(NumberFormatException e)
+                                        {
+                                                JOptionPane.showMessageDialog(null, "Invalid distance parameter");
+                                        }
+                                }
+                                    break; 
+                             
+                                	
+                                	
+               
                                 default:
                                         JOptionPane.showMessageDialog(null, "Command not recognised");
 
@@ -122,6 +167,9 @@ public class TurtleGraphics extends OOPGraphics
                        // JOptionPane.showMessageDialog(null, "Command not recognised"); 
                 
         }
+
+				
+
 
 				
 
